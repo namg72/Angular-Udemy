@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-heroe',
-  templateUrl: './heroe.component.html',
-  styleUrls: ['./heroe.component.css']
+  selector: 'app-listadoHeroe',
+  templateUrl: '../listado-heroes/listado-heroe.component.html',
+  styleUrls: ['../listado-heroes/listado-heroe.component.css']
 })
-export class HeroeComponent  {
+export class ListadoHeroeComponent  {
 
 public heroes:string[]=['Spiderman', 'Superman', 'hulk', 'Ironman']
 public newHeroes:string[]=[]

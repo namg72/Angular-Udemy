@@ -3,8 +3,6 @@ import { ContadorComponent } from './contador/contador.component';
 
 
 
-
-
 @NgModule({
     declarations: [
         ContadorComponent       
